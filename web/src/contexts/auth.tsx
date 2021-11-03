@@ -23,13 +23,7 @@ type AuthProvider = {
 
 type AuthResponse = {
   token: string;
-  user: {
-    id: {
-      avatar_url: string;
-      name: string;
-      login: string;
-    };
-  };
+  user: User;
 };
 
 export function AuthProvider(props: AuthProvider) {
@@ -44,6 +38,7 @@ export function AuthProvider(props: AuthProvider) {
     const { token, user } = response.data;
 
     localStorage.setItem("@dowhile:token", token);
+    api.defaults.headers.common.authorization = `Bearer ${token}`;
     setUser(user);
   }
 

@@ -31,13 +31,12 @@
     align-items: center;
     justify-content: center;
 
-    &:hover {
-      filter: brightness(0.9);
-    }
-
     svg {
       margin-right: 16px
     }
 
+    &:hover {
+      filter: brightness(0.9);
+    }
   }
 }
