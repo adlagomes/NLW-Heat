@@ -16,10 +16,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - NodeJS
 - Express
 - Prisma
+- Socket.io
+- JSON Web token
 
 ## 💻 Projeto
 
-O Rocket.Q é uma aplicação de interação entre internautas através de perguntas anônimas. O criador da sala pode compartilhar com os participantes o código gerado, e também gerenciar as mensagens para marcar como lida ou excluir.
+Essa aplicação permite que o usuário faça login com sua conta do github e envie mensagens para a página. As mensagens serão armazenadas em uma lista do banco de dados e serão postadas e atualizadas em tempo real.
 
 ## :memo: Licença <a name="memo-licença"></a>
 
