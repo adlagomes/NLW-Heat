@@ -1,7 +1,7 @@
 # NLW-Heat
  Aplicação desenvolvida no evento da NLW/Heat - 2021
 
-<img src="">
+<img src="https://github.com/adlagomes/NLW-Heat/blob/main/DoWhile2021.png">
 
 ## 🚀 Tecnologias <a name="-tecnologias"></a>
 
